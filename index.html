@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Calculadora</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./img/logoIGTI.jpg" alt="Logo IGTI" />
+      <h1>Super Calculadora</h1>
+    </header>
+    <div class="entradaDeDados">
+      <div class="entryA">
+        <p>Primeiro número (A)</p>
+        <input type="text" class="entradas" id="entradaA" value="1" />
+      </div>
+      <div class="entryB">
+        <p>Segundo número (B)</p>
+        <input type="text" class="entradas" id="entradaB" value="1" />
+      </div>
+    </div>
+    <h2>Cálculos</h2>
+    <div class="calculos">
+      <div class="firstcolumn">
+        <div class="blocos" id="soma">
+          <p>Soma (a + b):</p>
+          <div class="resposta" id="respSoma"></div>
+        </div>
+        <div class="blocos" id="multiplicacao">
+          <p>Multiplicação (a x b):</p>
+          <div class="resposta" id="respMult"></div>
+        </div>
+        <div class="blocos" id="quadradoA">
+          <p>Quadrado de a (a²)</p>
+          <div class="resposta" id="respSquareA"></div>
+        </div>
+        <div class="blocos" id="divisoresIntB">
+          <p>Divisores inteiros de b:</p>
+          <div class="resposta" id="respDivisoresIntB"></div>
+        </div>
+      </div>
+      <div class="secondcolumn">
+        <div class="blocos" id="subtracao1">
+          <p>Subtração 1 (a - b):</p>
+          <div class="resposta" id="respSubt1"></div>
+        </div>
+        <div class="blocos" id="divisao1">
+          <p>Divisão 1 (a / b):</p>
+          <div class="resposta" id="respdiv1"></div>
+        </div>
+        <div class="blocos" id="quadradoB">
+          <p>Quadrado de b (b²)</p>
+          <div class="resposta" id="respSquareB"></div>
+        </div>
+        <div class="blocos" id="fatorialA">
+          <p>Fatorial de a (a!):</p>
+          <div class="resposta" id="respFatorialA"></div>
+        </div>
+      </div>
+      <div class="thirdcolumn">
+        <div class="blocos" id="subtracao2">
+          <p>Subtração 2 (b - a):</p>
+          <div class="resposta" id="respSubt2"></div>
+        </div>
+        <div class="blocos" id="divisao2">
+          <p>Divisão 2 (b / a):</p>
+          <div class="resposta" id="respdiv2"></div>
+        </div>
+        <div class="blocos" id="divisoresIntA">
+          <p>Divisores inteiros de a:</p>
+          <div class="resposta" id="respDivisoresIntA"></div>
+        </div>
+        <div class="blocos" id="fatorialB">
+          <p>Fatorial de b (b!):</p>
+          <div class="resposta" id="respFatorialB"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

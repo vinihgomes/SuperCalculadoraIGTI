@@ -1,0 +1,95 @@
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #04bbb3;
+  display: flex;
+  justify-content: center;
+}
+header img {
+  height: 100px;
+  justify-content: left;
+}
+h1 {
+  width: 100%;
+  font-size: 3rem;
+  margin: auto auto auto -180px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-style: normal;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(128, 128, 128, 0.623);
+  padding: 0 0 20px;
+}
+.entradaDeDados {
+  position: relative;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.entryA {
+  padding-right: 10px;
+  width: max-content;
+  display: inline-flexbox;
+  width: 100%;
+}
+.entryB {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.entradas {
+  border-style: none;
+  border-bottom-style: solid;
+  border-color: grey;
+  box-sizing: initial;
+  width: 100%;
+  padding-top: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 15px;
+}
+.blocos {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: blueviolet;
+  box-sizing: border-box;
+  border-width: 1px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 35px;
+}
+.calculos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+}
+.resposta {
+  border-width: 2px;
+  width: 100%;
+  padding: 5px;
+  border-bottom-style: solid;
+  border-color: rgba(128, 128, 128, 0.623);
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+.firstcolumn {
+  width: 100%;
+}
+.secondcolumn {
+  width: 100%;
+}
+.thirdcolumn {
+  width: 100%;
+}
